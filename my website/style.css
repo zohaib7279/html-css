@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+}
+
+header{
+    position: sticky;
+}
+
+.navbar {
+    background-color:#0089b7;
+    height: 70px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    color: black;
+        justify-content: space-around;
+        width: 1350px;
+        
+}
+
+body{
+    background-color: #003d62;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-right: 20px;
+    text-transform: capitalize;
+}
+
+h1:hover{
+    color:orange;
+}
+
+a:hover{
+    color: orange;
+}
+
+.logo-a{
+    font-size: 40px;
+}
+
+
+ /* main page */
+ img {
+    width: 1341px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.second-section {
+    background-color: black;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 72px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.third-section {
+    display: flex;
+    padding: 100px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    line-height: 1.7;
+    letter-spacing: 1.8px;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+.contect {
+    width: 50%;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    color: white;
+    height: 400px;
+    background-color: #515603;
+}
+
+h5 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.About {
+    width: 50%;
+    line-height: 2;
+    letter-spacing: 1.5px;
+    color: white;
+    height: 400px;
+    background-color: darkred;
+}
+
+.last-section {
+    display: flex;
+    text-align: center;
+}
+
+.third-section img {
+    height: 200px;
+    width: 300px;
+}
+
+.web {
+    width: 300px;
+    color: black;
+    margin-left: 50px;
+    background-color: skyblue;
+    margin-right: 50px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: all 0.2s ease-in 5;
+}
+
+.app {
+    color: black;
+    background-color: skyblue;
+    margin-right: 15px;
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 500px;
+}
+
+.ui-ux {
+    color: black;
+    margin-right: 50px;
+    background-color: skyblue;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+
+h3{
+   font-size: 25px;
+   text-align: center;
+}
+
+p{
+    width: 300px;
+    margin-top: 10px;
+}
+
+footer{
+    height: 60px;
+    background-color:rgb(128, 128, 128);
+    color: white;
+}
+
+h6{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 24px;
+}
+
+h4{
+    text-align: start;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
+
+.div-1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.news{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    height: 30px;
+}
+
+.refers{
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.input-1{
+   margin-top: 15px;
+}
+
+.looping{
+    height: 30px;
+    width: 70px;
+}

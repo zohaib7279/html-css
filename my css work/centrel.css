@@ -1,0 +1,32 @@
+span {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-family: serif;
+}
+
+.news {
+    height: 100px;
+    width: 120pxpx;
+}
+
+.main {
+    display: flex;
+    width: 120px;
+    max-width: 335px;
+    gap: 14px;
+}
+
+.main-div {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr-main-div {
+    width: 1140px;
+}
+
+h3 {
+    width: 200px;
+}
+

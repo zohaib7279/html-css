@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    color: aliceblue;
+    background-color: black;
+    height: 60px;
+}
+
+a {
+    margin-right: 150px;
+    margin-left: 35px;
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    margin-left: 8px;
+    font-size: 25px;
+    color: orangered;
+      
+}
+
+input{
+    height: 20px;
+    align-items: center;
+}
+
+button{
+    height: 20px;
+    color:crimson;
+    align-items: center;
+}
+
+.logo:hover{
+    transition: all 2s ease-in 1s;
+}

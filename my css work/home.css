@@ -1,0 +1,35 @@
+.navbar {
+    background-color:white;
+    height: 70px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    color: black;
+        justify-content: space-around;
+        
+}
+
+body{
+    background-color: rgb(128,128,128);
+}
+
+h1{
+    margin-right: 230px;
+    justify-content: end;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+h1:hover{
+    color:orange;
+}
+
+a:hover{
+    color: orange;
+}
