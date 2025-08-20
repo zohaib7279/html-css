@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    .navbar-1 {
+        background-color: #FFFFFF;
+        height: 60px;
+        border-bottom: 2px solid #E5E5E5;
+
+        .contact-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+
+            .number-email {
+                padding-left: 15px;
+
+                .fa.fa-envelope-o,
+                .fa.fa-phone {
+                    opacity: 0.7;
+                    margin-right: 15px;
+                }
+
+                .fa.fa-envelope-o::before,
+                .fa.fa-phone::before {
+                    padding-right: 10px;
+                }
+            }
+
+            .count-data {
+                padding-right: 15px;
+                opacity: 0.5;
+
+                .fa.fa-map-marker::before {
+                    padding-right: 12px;
+                }
+            }
+        }
+    }
+
+    .navbar-2 {
+        height: 80px;
+
+        .logo-menu-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .menu {
+                padding-left: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #121212;
+                    font-family: "Jost";
+                    margin-right: 12px;
+                }
+            }
+
+            .btn {
+                padding-right: 10px;
+
+                .btn-1 {
+                    padding: 12px 17px;
+                    background: none;
+                    border: 1px solid #E1E3E1;
+                    color: #000;
+                    border-radius: 6px;
+                    transition: all 0.4s ease;
+
+                    &:hover {
+                        color: #FFFFFF;
+                        background-color: #AB8A62;
+                    }
+                }
+
+                .btn-2 {
+                    background-color: #AB8A62;
+                    color: #FFFFFF;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 15px 20px;
+
+                    &:hover {
+                        background-color: #99754a;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.section-1 {
+    background-image: url(./images/7.webp);
+    height: 100vh;
+    background-size: cover;
+}
