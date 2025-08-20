@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .section-1 {
+            background-color: #282A35;
+
+            .main-1-4 {
+                text-align: center;
+                color: #fff;
+                line-height: 1.6;
+                font-family: sans-serif;
+
+                h1 {
+                    font-size: 55px;
+                }
+            }
+
+            .main-3-6 {
+                padding-left: 180px;
+
+                .main-2 {
+                    display: flex;
+
+                    .heading {
+                        border-radius: 10px;
+
+                        a {
+                            font-size: 40px;
+                            text-decoration: none;
+                            background-color: #FFF4A3;
+                            border-radius: 10px;
+                            width: 400px;
+                            height: max-content;
+                            display: block;
+                            color: black;
+                            text-align: center;
+                            padding-top: 70px;
+                            padding-bottom: 70px;
+                            font-family: sans-serif;
+                        }
+                    }
+
+                    .main-3 {
+                        background-color: #fff;
+                        height: fit-content;
+                        margin-top: 20px;
+                        margin-left: 30px;
+                        font-family: sans-serif;
+                        border-radius: 10px;
+
+                        pre {
+                            margin-left: 15px;
+                        }
+
+                        h4 {
+                            font-family: sans-serif;
+                            width: 500px;
+                            line-height: 1.6;
+                            margin-left: 15px;
+                        }
+
+                        button {
+                            padding: 15px 35px;
+                            margin-left: 10px;
+                            margin-bottom: 12px;
+                            border-radius: 20px;
+                            background-color: #501796;
+                            border: none;
+                            color: white;
+
+                            &:hover {
+                                background-color: purple;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .section-2 {
+            .main-4 {
+                text-align: center;
+
+                h1 {
+                    font-family: sans-serif;
+                }
+
+                p {
+                    font-size: 18px;
+                    font-family: sans-serif;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        .section-3 {
+            background-color: #282A35;
+
+            .main-6 {
+                text-align: center;
+
+                h1 {
+                    font-size: 60px;
+                    font-family: sans-serif;
+                    color: #fff;
+                    padding-top: 50px;
+                }
+
+
+                h3 {
+                    font-size: 25px;
+                    font-family: sans-serif;
+                    color: #fff;
+                    font-weight: 200;
+                }
+            }
+        }
+
+        .section-4 {
+            .main-3 {
+                text-align: center;
+
+                h1 {
+                    font-size: 50px;
+                    font-family: sans-serif;
+                }
+
+                h3 {
+                    font-family: sans-serif;
+                    font-weight: 200;
+                    line-height: 1.6;
+                }
+            }
+        }
+
+        @media (max-width: 940px) {
+            .section-1 {
+                .main-1-4 {
+                    width: auto;
+                }
+
+                .main-3-6 {
+                    padding: 0;
+
+                    .main-2 {
+                        .heading {
+                            width: 100%;
+                        }
+
+                        .main-3 {
+                            width: 240px;
+                            height: 300px;
+                            display: none;
+
+                            h2 {
+                                width: 24px;
+                            }
+
+                            pre {
+                                width: 20px;
+                            }
+
+                            h4 {
+                                width: auto;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section-2 {
+                h1 {
+                    font-size: 40px;
+                    font-family: sans-serif;
+                }
+            }
+
+            .section-3 {
+
+                h1 {
+                    font-size: 40px;
+                }
+
+                p {
+                    line-height: 1.5;
+                }
+
+                .spaces-4 {
+                    width: 100%;
+                }
+
+                .spaces {
+                    width: 100%;
+                }
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="section-1">
+        <div class="main-1-4">
+            <div class="main-4">
+                <h1>Where To Start</h1>
+                <h2>To become a web developer, start with the subjects below,<br>in the following order:</h2>
+            </div>
+        </div>
+        <div class="main-3-6">
+
+            <div class="main-2">
+                <div class="heading">
+                    <h1><a href="https://www.w3schools.com/html/html_intro.asp">HTML</a></h1>
+                </div>
+                <div class="main-3">
+                    <h2>
+                        <pre>1. Create your first web page</pre>
+                    </h2>
+                    <h4>The first thing you have to learn, is HTML, which is the standard markup language for creating
+                        web pages.</h4>
+                    <a href="https://www.w3schools.com/html/html_intro.asp"><button>Learn HTML</button></a>
+                </div>
+            </div>
+            <div class="main-2">
+                <div class="heading">
+                    <h1><a href="https://www.w3schools.com/css/css_intro.asp">CSS</a></h1>
+                </div>
+                <div class="main-3">
+                    <h2>
+                        <pre>2. Style your web page</pre>
+                    </h2>
+                    <h4>The next step is to learn CSS, to set the layout of your web page with beautiful colors, fonts,
+                        and much more.</h4>
+                    <a href="https://www.w3schools.com/css/css_intro.asp"><button>Learn CSS</button></a>
+                </div>
+            </div>
+            <div class="main-2">
+                <div class="heading">
+                    <h1><a href="https://www.w3schools.com/js/js_intro.asp">Javascript</a></h1>
+                </div>
+                <div class="main-3">
+                    <h2>
+                        <pre>3. Make your web page interactive</pre>
+                    </h2>
+                    <h4>After studying HTML and CSS, you should learn JavaScript to create dynamic and interactive web
+                        pages for your users.</h4>
+                    <a href="https://www.w3schools.com/js/js_intro.asp"><button>Learn JavaScript</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <div class="main-4">
+            <h1>What's Next?</h1>
+            <p>Now you know how to use HTML, CSS, and JavaScript <br> to create, style, and make interactive web pages.
+            </p>
+            <p>The next step is to publish your website, <br> so that the rest of the world can see your work.</p>
+            <p>There are tons of hosting services to choose from. <br> We have made one for you, for free:</p>
+        </div>
+    </section>
+    <section class="section-3">
+        <div class="main-6">
+            <div class="photo">
+                <h1>W3Schools Spaces</h1>
+                <h3>Create your own website with W3Schools Spaces, for free:</h3>
+                <img src="./images/dynamicspaces.gif" alt="W3Schools Spaces" class="spaces">
+                <img src="./images/how-spaces-works3.png" class="spaces-4">
+            </div>
+        </div>
+    </section>
+    <section class="section-4">
+        <div class="main-3">
+            <h1>Hello,<br>Front-End Developer!</h1>
+            <h3>People who create websites and web applications for a living, are <br> called Front-End Developers.</h3>
+            <h3>Tip: Many Front-End Developers also have basic knowledge of <br> different CSS and JavaScript frameworks
+                and libraries, like <br> Bootstrap, SASS (CSS pre-processor), jQuery and React, <br> and the popular
+                version control system, Git.</h3>
+        </div>
+    </section>
+    <section class="section-5">
+
+    </section>
+</body>
+
+</html>

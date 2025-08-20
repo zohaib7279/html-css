@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: red;
+            height: 70px;
+            align-items: center;
+            display: flex;
+            text-align: center;
+            font-family: sans-serif;
+
+            h1 {
+                text-align: center;
+                display: block;
+                width: 100%;
+                color: white;
+            }
+        }
+
+        .section-1 {
+            margin-top: 10px;
+            display: flex;
+
+
+
+            .div-1 {
+                width: 80%;
+                background-color: lightblue;
+
+                h2 {
+                    font-family: sans-serif;
+                    font-weight: 300;
+                    padding-left: 65px;
+                }
+
+                h4 {
+                    font-family: sans-serif;
+                    padding-left: 65px;
+                }
+
+                p {
+                    font-family: sans-serif;
+                    line-height: 1.5;
+                    letter-spacing: 1px;
+                    width: 850px;
+                    padding-left: 65px;
+                    font-weight: 500;
+
+                    a {
+                        color: #1b1b1b;
+                    }
+                }
+
+                button {
+                    margin-left: 650px;
+                    padding: 15px;
+                    width: 145px;
+                    background-color: transparent;
+                    cursor: pointer;
+                    border: 2px solid #501796;
+
+                    &:hover {
+                        background-color: #501796;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+
+        .sidbar {
+            width: 20%;
+            background-color: lightpink;
+            height: 85vh;
+
+            h4 {
+                border-top: 1px solid black;
+                border-right: 2px solid black;
+                border-bottom: 1px solid black;
+                border-left: 5px solid black;
+                text-align: center;
+                padding: 12px;
+            }
+
+            a {
+                display: block;
+                text-decoration: none;
+                color: black;
+                margin-bottom: 5px;
+                padding-left: 30px;
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+                cursor: pointer;
+                font-family: sans-serif;
+                font-weight: 200;
+            }
+
+
+        }
+
+        .section-2 {
+            background: darkgray;
+            height: 400px;
+
+            .flex {
+                display: flex;
+
+                .flex-1 {
+                    margin-right: 200px;
+                    font-family: sans-serif;
+                }
+
+                .flex-2 {
+                    padding-top: 250px;
+                   
+
+                    h2 {
+                        font-family: sans-serif;
+                        text-align: justify;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        font-size: 18px;
+                        color: #1b1b1b;
+                        padding-left: 650px;
+
+                        &:hover {
+                            color: #501796;
+                        }
+                    }
+                }
+            }
+
+            h4 {
+                font-size: 20px;
+                font-weight: 400;
+                font-family: sans-serif;
+                display:block;
+                padding: 0;
+                margin: 0;
+                margin-bottom: 20px;
+                padding-left: 10px;
+            }
+
+            .fa.fa-star {
+                color: white;
+                display: block;
+                margin-bottom: 25px;
+                padding-left: 30px;
+            }
+
+            .fa.fa-star::before {
+                margin-right: 10px;
+            }
+        }
+
+        footer {
+            background: #1b1b1b;
+            height: 70px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            padding-left: 350px;
+
+            a {
+                margin-right: 8px;
+                color: #fff;
+                text-decoration: none;
+                opacity: 0.5;
+                margin-left: 4px;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: #fff;
+                    opacity: 0.9;
+                }
+            }
+
+            h3 {
+                color: #fff;
+            }
+        }
+
+
+
+
+
+        @media (max-width: 940px) {
+            .section-1 {
+                display: block;
+
+                .div-1 {
+                    width: auto;
+
+                    p {
+                        width: auto;
+                        padding: 0;
+                    }
+
+                    h2 {
+                        width: auto;
+                        padding: 0;
+                    }
+
+                    button {
+                        margin: 0;
+                    }
+                }
+
+                .sidbar {
+                    width: auto;
+
+                    h4{
+                        width: 200px;
+                        text-align: center;
+                        margin-left: 70px;
+                    }
+                }
+
+
+            }
+
+            .section-2 {
+                width: auto;
+
+                p {
+                    text-align: justify;
+                }
+
+                .flex{
+                    display: block;
+                }
+
+                .flex-1 {
+                    .fa.fa-star {
+                        width: 350px;
+                    }
+                }
+
+                .flex-2 {
+                    display: none;
+                }
+            }
+
+            footer {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Project</h1>
+    </header>
+    <section class="section-1">
+
+        <div class="div-1">
+            <h2>Muhammad Ali Jinnah</h2>
+            <h4>1876 – 1948</h4>
+            <p>Muhammad Ali Jinnah[a] (born Mahomedali Jinnahbhai;[b] 25 December 1876 – 11 September 1948) was a
+                barrister, politician, and the <a
+                    href="https://en.wikipedia.org/wiki/List_of_Pakistan_Movement_activists">founder</a> of <a
+                    href="https://en.wikipedia.org/wiki/Pakistan">Pakistan</a>. Jinnah served as the leader of the <a
+                    href="https://en.wikipedia.org/wiki/All-India_Muslim_League">All-India Muslim
+                    League</a> from 1913 until the inception of Pakistan on 14 August 1947 and then as <a
+                    href="https://en.wikipedia.org/wiki/Dominion_of_Pakistan">Pakistan</a> 's first
+                <a href="https://en.wikipedia.org/wiki/Governor-General_of_Pakistan">governor-general</a> until <a
+                    href="https://en.wikipedia.org/wiki/Death_and_state_funeral_of_Muhammad_Ali_Jinnah">his death.</a>
+            </p>
+            <p>Born at Wazir Mansion in Karachi, Jinnah was trained as a barrister at Lincoln's Inn in London, England.
+                Upon his return to India, he enrolled at the Bombay High Court, and took an interest in national
+                politics, which eventually replaced his legal practice. Jinnah rose to prominence in the Indian National
+                Congress in the first two decades of the 20th century. In these early years of his political career,
+                Jinnah advocated for Hindu–Muslim unity, helping to shape the 1916 Lucknow Pact between the Congress and
+                the All-India Muslim League, in which Jinnah had also become prominent</p>
+            <h2>Click on this button and visit the Wikipedia website:</h2>
+            <a href="https://www.wikipedia.org/"><button>Click Me</button></a>
+        </div>
+        <div class="sidbar">
+            <div class="pages">
+                <h4>Recent Pages</h4>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a>
+                <a href="#">feedback info</a>
+            </div>
+            <div class="posts">
+                <h4>Recent Posts</h4>
+                <h3>Born: 25 Dec 1876</h3>
+                <h3>Founder Of Pakistan</h3>
+                <h3>First Governor General of Pakistan</h3>
+                <h3>In Live Karachi</h3>
+                <h3>Death: 11 September 1948</h3>
+            </div>
+        </div>
+    </section>
+    <section class="section-2">
+        <h4>Biograpics</h4>
+        <div class="flex">
+            <div class="flex-1">
+                <i class="fa fa-star">Quaid-e-Azam was the founder of Pakistan.</i>
+                <i class="fa fa-star">He was born on 25th December 1876 in Karachi.</i>
+                <i class="fa fa-star">He struggled hard for the freedom of Muslims.</i>
+                <i class="fa fa-star">He is called the Father of the Nation.</i>
+                <i class="fa fa-star">He believed in truth, justice, and hard work.</i>
+                <i class="fa fa-star">His famous motto was:<i>Faith, Unity, Discipline.</i></i>
+                <i class="fa fa-star">His struggle will never be forgotten.</i>
+                <i class="fa fa-star">He believed Muslims were a separate nation.</i>
+            </div>
+            <div class="flex-2">
+                <h2>If you want more information about it, follow this link:</h2>
+                <a href="https://en.wikipedia.org/wiki/Muhammad_Ali_Jinnah">Wikipedia</a>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <h3>Copyright © 2017,<a href="#">DesignThemes</a><a href="#">Privacy Policy </a> | <a href="#">Terms &
+                Conditions</a></h3>
+    </footer>
+</body>
+
+</html>
