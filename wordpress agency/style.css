@@ -133,27 +133,27 @@ header {
         .main-1 {
             padding-left: 12px;
 
-            .fa.fa-envelope-o{
+            .fa.fa-envelope-o {
                 padding-top: 20px;
             }
 
-            .fa.fa-envelope-o::before{
+            .fa.fa-envelope-o::before {
                 padding-right: 8px;
             }
         }
 
-        .main-3{
+        .main-3 {
             padding-top: 20px;
             padding-right: 12px;
-     
+
             .fa.fa-shopping-cart,
-            .fa.fa-user-circle{
+            .fa.fa-user-circle {
                 margin-left: 10px;
             }
 
             .fa.fa-map-marker::before,
             .fa.fa-shopping-cart::before,
-            .fa.fa-user-circle:before{
+            .fa.fa-user-circle:before {
                 padding-right: 8px;
             }
         }
@@ -229,18 +229,9 @@ header {
 
 }
 
-@media (max-width: 940px) {
-  .section-1{
-    background-image: url(./images/agency-slider01.jpg);
-    width: auto;
-    background-size: cover;
-  }
-
-}
-
 .section-2 {
     background-color: #EDF5F8;
-    height: 300px;
+    /* height: 300px; */
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -302,19 +293,6 @@ header {
     }
 }
 
-@media (max-width: 940px) {
-  .section-2{
-    display: block;
-    width: 100%;
-    height: 1000px;
-    padding-left: 50px;
-
-    .works{
-        text-align: center;
-    }
-  }
-}
-
 .section-3 {
 
     margin-top: 20px;
@@ -334,9 +312,10 @@ header {
         h1 {
             font-size: 50px;
             width: 1030px;
+            margin: auto;
             text-align: none;
             font-family: "Montserrat";
-            padding-left: 100px;
+            /* padding-left: 100px; */
         }
 
         p {
@@ -358,7 +337,6 @@ header {
     .best {
         h1 {
             font-size: 50px;
-            width: 590px;
             padding-left: 500px;
             margin-top: 10px;
             font-family: "Montserrat";
@@ -375,6 +353,7 @@ header {
         flex-wrap: wrap;
         padding-left: 50px;
         margin-top: 50px;
+        justify-content: center;
 
         .Process {
             width: 380px;
@@ -399,6 +378,41 @@ header {
             }
 
 
+
+            .bolding {
+                font-weight: bold;
+            }
+
+            p {
+                color: rgba(128, 128, 128, 1.5);
+                line-height: 1.6;
+                padding-top: 12px;
+                width: 300px;
+                padding-left: 28px;
+                font-family: "Open Sans";
+            }
+        }
+
+        .Process-1 {
+            width: 380px;
+            height: 290px;
+            text-align: center;
+            padding: 15px;
+            border-bottom: 1px solid #dedede;
+
+            &:hover {
+                background-color: #EDF5F8;
+            }
+
+            img {
+                height: 90px;
+                width: 95px;
+            }
+
+            h3 {
+                font-weight: 300;
+                font-family: "Montserrat";
+            }
 
             .bolding {
                 font-weight: bold;
@@ -441,7 +455,6 @@ header {
                 width: 700px;
                 display: block;
                 margin-left: -70px;
-                height: 450px;
             }
         }
 
@@ -486,7 +499,8 @@ header {
 
 .section-6 {
     background-color: #EDF5F8;
-    height: 700px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
 
     .team {
         h1 {
@@ -506,7 +520,6 @@ header {
             margin-top: 40px;
 
             .perfect {
-                height: 400px;
                 width: 300px;
                 background-color: #FFFFFF;
                 border-radius: 5px;
@@ -804,7 +817,7 @@ header {
         .processer {
             display: flex;
             padding: 100px 30px;
-            width: 390px;
+            width: 450px;
 
             &:hover {
                 background-color: #D4E0E4;
@@ -897,6 +910,14 @@ header {
         transition: color 0.3s;
     }
 
+    .footer-col ul li {
+        transition: all 0.3s ease;
+    }
+
+    .footer ul li:hover {
+        padding-left: 10px;
+    }
+
     .social-icons span {
         font-size: 18px;
         margin-right: 10px;
@@ -942,8 +963,9 @@ header {
     .about-link {
         background-color: #F2F2F2;
         text-align: center;
-        height: 110px;
+        height: 150px;
         padding-top: 50px;
+        margin-bottom: 30px;
 
         a {
             text-decoration: none;
@@ -1889,7 +1911,6 @@ header {
     .best {
         h1 {
             font-size: 50px;
-            width: 590px;
             padding-left: 500px;
             margin-top: 10px;
             font-family: "Montserrat";
@@ -1906,6 +1927,7 @@ header {
         flex-wrap: wrap;
         padding-left: 50px;
         margin-top: 50px;
+        justify-content: center;
 
         .Process {
             width: 380px;
@@ -1913,6 +1935,43 @@ header {
             text-align: center;
             padding: 15px;
             border-right: 1px solid #dedede;
+            border-bottom: 1px solid #dedede;
+
+            &:hover {
+                background-color: #EDF5F8;
+            }
+
+            img {
+                height: 90px;
+                width: 95px;
+            }
+
+            h3 {
+                font-weight: 300;
+                font-family: "Montserrat";
+            }
+
+
+
+            .bolding {
+                font-weight: bold;
+            }
+
+            p {
+                color: rgba(128, 128, 128, 1.5);
+                line-height: 1.6;
+                padding-top: 12px;
+                width: 300px;
+                padding-left: 28px;
+                font-family: "Open Sans";
+            }
+        }
+
+        .Process-1 {
+            width: 380px;
+            height: 290px;
+            text-align: center;
+            padding: 15px;
             border-bottom: 1px solid #dedede;
 
             &:hover {
@@ -3231,4 +3290,127 @@ h1 {
     }
 }
 
-/* complete the wbsite style  */
+/* complete the website style */
+
+
+
+@media (max-width: 991px) {
+
+    .section-1 .text-div h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .section-1 .text-div h1 {
+        font-size: 36px;
+    }
+}
+
+
+@media (max-width: 420px) {
+
+    .section-1 {
+        height: 350px;
+
+        .text-div h1 {
+            font-size: 30px;
+        }
+    }
+
+    .section-2 {
+        flex-wrap: wrap;
+    }
+
+    .section-3 .div-1 {
+        h1 {
+            font-size: 30px;
+            max-width: 380px;
+        }
+        p{
+            padding: 0;
+        }
+    }
+
+    .section-4{
+        .best{
+            h1{
+                padding-left: 0;
+                font-size: 36px;
+                margin: auto;
+            }
+
+            .Process{
+                width: auto;
+            }
+        }
+    }
+
+    .section-5{
+        .relation{
+            flex-wrap: wrap;
+            justify-content: unset;
+
+            .strategy{
+                img{
+                    width: 100%;
+                    margin-left: 0;
+                }
+            }
+
+            .content{
+                padding: 0;
+            }
+        }
+    }
+
+    .section-6{
+        .team{
+            h1{
+                font-size: 30px;
+            }
+
+            .three-main{
+                flex-wrap: wrap;
+            }
+        }
+    }
+    
+    .section-7{
+        .row{
+            flex-wrap: wrap;
+        }
+    }
+
+    .section-8 .gallery .images .jun{
+        width: 100%;
+    }
+
+    .section-9{
+        .blog{
+            h1{
+                font-size: 36px;
+            }
+
+            .three-main-blog{
+                flex-wrap: wrap;
+
+                .blog-div{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .section-10{
+        .main-icon{
+            flex-wrap: wrap;
+
+            .processer{
+                width: 100%;
+            }
+        }
+    }
+}
