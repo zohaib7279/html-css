@@ -164,7 +164,9 @@ header {
 
 .section-1 {
     width: 100%;
-    background-image: url(./images/agency-slider01.jpg);
+    /* background-image: url(./images/agency-slider01.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0)), url("./images/agency-slider01.jpg");
+
     height: 600px;
 
 
@@ -907,14 +909,14 @@ header {
     .footer-col ul li a {
         color: #aaa;
         text-decoration: none;
-        transition: color 0.3s;
+        transition: 0.3s ease-in-out;
     }
 
     .footer-col ul li {
         transition: all 0.3s ease;
     }
 
-    .footer ul li:hover {
+    .footer-col ul li a:hover {
         padding-left: 10px;
     }
 
@@ -3188,7 +3190,6 @@ h1 {
                             padding: 18px;
                             background-color: #000000;
                             margin-bottom: 12px;
-                            transition: all 0.5s ease;
 
                             &:hover {
                                 background-color: #9D3FA2;
@@ -3329,86 +3330,87 @@ h1 {
             font-size: 30px;
             max-width: 380px;
         }
-        p{
+
+        p {
             padding: 0;
         }
     }
 
-    .section-4{
-        .best{
-            h1{
+    .section-4 {
+        .best {
+            h1 {
                 padding-left: 0;
                 font-size: 36px;
                 margin: auto;
             }
 
-            .Process{
+            .Process {
                 width: auto;
             }
         }
     }
 
-    .section-5{
-        .relation{
+    .section-5 {
+        .relation {
             flex-wrap: wrap;
             justify-content: unset;
 
-            .strategy{
-                img{
+            .strategy {
+                img {
                     width: 100%;
                     margin-left: 0;
                 }
             }
 
-            .content{
+            .content {
                 padding: 0;
             }
         }
     }
 
-    .section-6{
-        .team{
-            h1{
+    .section-6 {
+        .team {
+            h1 {
                 font-size: 30px;
             }
 
-            .three-main{
+            .three-main {
                 flex-wrap: wrap;
             }
         }
     }
-    
-    .section-7{
-        .row{
+
+    .section-7 {
+        .row {
             flex-wrap: wrap;
         }
     }
 
-    .section-8 .gallery .images .jun{
+    .section-8 .gallery .images .jun {
         width: 100%;
     }
 
-    .section-9{
-        .blog{
-            h1{
+    .section-9 {
+        .blog {
+            h1 {
                 font-size: 36px;
             }
 
-            .three-main-blog{
+            .three-main-blog {
                 flex-wrap: wrap;
 
-                .blog-div{
+                .blog-div {
                     width: 100%;
                 }
             }
         }
     }
 
-    .section-10{
-        .main-icon{
+    .section-10 {
+        .main-icon {
             flex-wrap: wrap;
 
-            .processer{
+            .processer {
                 width: 100%;
             }
         }
