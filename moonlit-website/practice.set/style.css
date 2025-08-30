@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    width: 500px;
+    font-weight: 600;
+}
+
+.country {
+    width: 230%;
+
+    .maps-country {
+        display: flex;
+        width: 100%;
+
+        .pargraph-1 {
+            width: 50%;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .pargraph-2 {
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
