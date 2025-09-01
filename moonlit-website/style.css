@@ -543,13 +543,14 @@ header {
 
             .three {
                 background-image: url(./images/3.webp);
-                background-size: contain;
+                background-size: cover;
                 margin-right: 50px;
                 padding-top: 20%;
                 padding-bottom: 60px;
                 width: 400px;
                 color: #fff;
                 background-attachment: fixed;
+                background-position: center center;
 
                 a {
                     text-decoration: none;
@@ -1347,6 +1348,10 @@ h2 {
     }
 }
 
+/* complete the page style and start the next page style */
+
+
+
 /* start media query in this pages  */
 
 @media (max-width: 991px) {
@@ -1844,6 +1849,7 @@ h2 {
             }
         }
     }
+
 }
 
 @media (max-width: 778px) {
