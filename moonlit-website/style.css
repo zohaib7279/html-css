@@ -1350,7 +1350,124 @@ h2 {
 
 /* complete the page style and start the next page style */
 
+.det-section-2 {
+    margin-top: 50px;
 
+    .container-1 {
+        width: 100%;
+        display: flex;
+
+        .sidbar-content-1 {
+            width: 70%;
+
+            .person-sqm {
+                padding-left: 30px;
+
+                h3 {
+                    font-size: 35px;
+                    color: #8c6b4d;
+                }
+
+                h2 {
+                    font-size: 50px;
+                    margin-top: 20px;
+                    font-weight: 500;
+                    margin-bottom: 10px;
+                }
+
+                .fa.fa-user {
+                    font-size: 30px;
+                    color: #65676b;
+                }
+
+                span {
+                    padding-left: 8px;
+                }
+
+                .fa.fa.fa-home {
+                    font-size: 30px;
+                    color: #65676b;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    width: 800px;
+                    margin-bottom: 10px;
+                    color: #65676b;
+                }
+
+                img {
+                    width: 400px;
+                    margin-right: 10px;
+                    border-radius: 5px;
+                }
+            }
+
+            .rules {
+                padding-left: 30px;
+
+                h2 {
+                    font-size: 40px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
+
+                .img-text {
+                    .parenting {
+                        border-bottom: 1px solid #d0d1d2;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-bottom: 20px;
+                        padding-bottom: 10px;
+
+                        img {
+                            width: 36px;
+                        }
+
+                        span {
+                            font-size: 20px;
+                            padding-right: 80px;
+                            color: #000834;
+                        }
+                    }
+                }
+            }
+
+            .room-features {
+                padding-left: 30px;
+
+                h2 {
+                    font-size: 40px;
+                    font-weight: 400;
+                }
+
+                img {
+                    width: 730px;
+                    border-radius: 5px;
+                    margin: 10px;
+                }
+
+                .fa.fa-circle {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+
+                p {
+                    color: #65676b;
+                    line-height: 0;
+                    line-height: 1.5;
+                    margin-top: 15px;
+                }
+            }
+        }
+
+        .sidbar-content-2 {
+            width: 30%;
+        }
+    }
+}
 
 /* start media query in this pages  */
 
