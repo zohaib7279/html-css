@@ -1351,7 +1351,7 @@ h2 {
 /* complete the page style and start the next page style */
 
 .det-section-2 {
-    margin-top: 50px;
+    margin-top: 45px;
 
     .container-1 {
         width: 100%;
@@ -1464,7 +1464,138 @@ h2 {
         }
 
         .sidbar-content-2 {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 20px;
+            width: 50%;
+            height: fit-content;
+
+            .booking-box {
+                flex: 1;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                background: #f9f9f9;
+            }
+
+            .booking-box label {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0;
+            }
+
+            .booking-box input {
+                width: 50%;
+                padding: 10px;
+                margin-top: 5px;
+            }
+
+            .booking-box #woding {
+                width: 50%;
+                padding: 10px;
+                margin-top: 5px;
+            }
+
+            .total {
+                margin: 15px 0;
+                font-weight: bold;
+            }
+
+            .booking-box .btn {
+                width: 100%;
+                background: #b08968;
+                color: #fff;
+                padding: 20px 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 20px;
+            }
+        }
+
+        .sidbar-content-2 {
             width: 30%;
+        }
+    }
+}
+
+.det-section-3 {
+    h4 {
+        text-align: center;
+        color: #ab8a62;
+        font-size: 20px;
+        font-family: "Gilda Display";
+    }
+
+    h2 {
+        font-size: 60px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .flex-3 {
+        display: flex;
+        justify-content: space-evenly;
+
+        .same-common {
+            width: 405px;
+            border: 1px solid #F1F1F1;
+
+            .same-common-1 {
+                width: 405px;
+
+                img {
+                    width: 100%;
+                    height: 300px;
+                    border-radius: 5px;
+                    padding-bottom: 30px;
+                    cursor: pointer;
+                }
+            }
+
+            .same-common-2 {
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: #000834;
+                    font-size: 40px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                }
+
+                .fa.fa-home {
+                    font-size: 22px;
+                    padding-right: 10px;
+                    margin-bottom: 10px;
+                }
+
+                .fa.fa-home::before {
+                    padding-right: 10px;
+                }
+
+                .fa.fa-user-o {
+                    font-size: 22px;
+                    padding-right: 10px;
+                }
+
+                .fa.fa-user-o::before {
+                    padding-right: 10px;
+                }
+
+                h3 {
+                    font-size: 30px;
+                    color: #ab8a62;
+                    margin-top: 10px;
+                }
+
+                .local {
+                    display: block;
+                    color: #ab8a62;
+                    font-size: 20px;
+                    text-decoration: underline;
+                    margin-top: 10px;
+                }
+            }
         }
     }
 }

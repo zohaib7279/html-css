@@ -146,101 +146,168 @@
           </div>
         </div>
         <div class="sidbar-content-2">
-          <h2></h2>
-          <div class="book">
-            <div class="gmail">
-              <div class="gmail-1">
-                <h4>Check In</h4>
-              </div>
-              <div class="gmail-2">
-                <input type="date" name="" id="" />
-              </div>
-            </div>
-            <div class="gmail">
-              <div class="gmail-1">
-                <h4>Check Out</h4>
-              </div>
-              <div class="gmail-2">
-                <input type="date" name="" id="" />
-              </div>
-            </div>
-            <div class="gmail">
-              <div class="gmail-1">
-                <h4>Adult</h4>
-              </div>
-              <div class="gmail-2">
-                <select name="" id="adulting">
-                  <option value="1">1 Person</option>
-                  <option value="2">2 Person</option>
-                  <option value="3">3 Person</option>
-                  <option value="4">4 Person</option>
-                  <option value="5">5 Person</option>
-                  <option value="6">6 Person</option>
-                  <option value="7">7 Person</option>
-                  <option value="8">8 Person</option>
-                  <option value="9">9 Person</option>
-                </select>
-              </div>
-            </div>
-            <div class="gmail">
-              <div class="gmail-1">
-                <h4>Child</h4>
-              </div>
-              <div class="gmail-2">
-                <select name="" id="children">
-                  <option value="1">1 Child</option>
-                  <option value="2">2 Child</option>
-                  <option value="3">3 Child</option>
-                  <option value="4">4 Child</option>
-                  <option value="5">5 Child</option>
-                  <option value="6">6 Child</option>
-                  <option value="7">7 Child</option>
-                  <option value="8">8 Child</option>
-                  <option value="9">9 Child</option>
-                </select>
-              </div>
-            </div>
-            <div class="gmail">
-              <div class="gmail-1">
-                <h4>Room</h4>
-              </div>
-              <div class="gmail-2">
-                <select name="" id="rooming">
-                  <option value="1">1 Room</option>
-                  <option value="2">2 Room</option>
-                  <option value="3">3 Room</option>
-                  <option value="4">4 Room</option>
-                  <option value="5">5 Room</option>
-                  <option value="6">6 Room</option>
-                  <option value="7">7 Room</option>
-                  <option value="8">8 Room</option>
-                  <option value="9">9 Room</option>
-                </select>
-              </div>
-            </div>
-            <div class="gmail">
-              <div class="gmail-1">
-                <h4>Extra Bed</h4>
-              </div>
-              <div class="gmail-2">
-                <select name="" id="beding">
-                  <option value="1">1 Bed</option>
-                  <option value="2">2 Bed</option>
-                  <option value="3">3 Bed</option>
-                  <option value="4">4 Bed</option>
-                  <option value="5">5 Bed</option>
-                  <option value="6">6 Bed</option>
-                  <option value="7">7 Bed</option>
-                  <option value="8">8 Bed</option>
-                  <option value="9">9 Bed</option>
-                </select>
-              </div>
-            </div>
-          </div>
-          <div class="services"></div>
-          <div class="btns-1"></div>
+          <aside class="booking-box">
+            <h3>Book Your Stay</h3>
+            <label>Check In <input type="date" /></label>
+            <label>Check Out <input type="date" /></label>
+            <label
+              >Adults
+              <select name="" id="woding">
+                <option value="1">1 Person</option>
+                <option value="2">2 Person</option>
+                <option value="3">3 Person</option>
+                <option value="4">4 Person</option>
+                <option value="5">5 Person</option>
+                <option value="6">6 Person</option>
+                <option value="7">7 Person</option>
+                <option value="8">8 Person</option>
+                <option value="9">9 Person</option>
+              </select>
+            </label>
+            <label
+              >Children
+              <select name="" id="woding">
+                <option value="1">1 Child</option>
+                <option value="2">2 Child</option>
+                <option value="3">3 Child</option>
+                <option value="4">4 Child</option>
+                <option value="5">5 Child</option>
+                <option value="6">6 Child</option>
+                <option value="7">7 Child</option>
+                <option value="8">8 Child</option>
+                <option value="9">9 Child</option>
+              </select>
+            </label>
+            <label
+              >Room
+              <select name="" id="woding">
+                <option value="1">1 Room</option>
+                <option value="2">2 Room</option>
+                <option value="3">3 Room</option>
+                <option value="4">4 Room</option>
+                <option value="5">5 Room</option>
+                <option value="6">6 Room</option>
+                <option value="7">7 Room</option>
+                <option value="8">8 Room</option>
+                <option value="9">9 Room</option>
+              </select>
+            </label>
+            <label
+              >Extra Bed
+              <select name="" id="woding">
+                <option value="1">1 Bed</option>
+                <option value="2">2 Bed</option>
+                <option value="3">3 Bed</option>
+                <option value="4">4 Bed</option>
+                <option value="5">5 Bed</option>
+                <option value="6">6 Bed</option>
+                <option value="7">7 Bed</option>
+                <option value="8">8 Bed</option>
+                <option value="9">9 Bed</option>
+              </select>
+            </label>
+
+            <h4>Extra Services</h4>
+            <label><input type="checkbox" /> Airport Pickup ($30)</label>
+            <label><input type="checkbox" /> Pet Friendly ($40)</label>
+
+            <div class="total">Total Price: $182</div>
+            <button class="btn book">Book Now</button>
+          </aside>
         </div>
       </div>
     </section>
+    <section class="det-section-3">
+      <h4>Similar Rooms</h4>
+      <h2>Similar Rooms</h2>
+      <div class="flex-3">
+        <div class="same-common">
+          <div class="same-common-1">
+            <img src="./images/1 (2).webp" alt="" />
+          </div>
+          <div class="same-common-2">
+            <a href="#">Executive Room</a>
+            <i class="fa fa-home" style="color: #65676b">35 sqm </i>
+            <i class="fa fa-user-o" style="color: #65676b">5 Person</i>
+            <h3>122$</h3>
+            <a href="#" class="local">Discover More</a>
+          </div>
+        </div>
+        <div class="same-common">
+          <div class="same-common-1">
+            <img src="./images/4 (2).webp" alt="" />
+          </div>
+          <div class="same-common-2">
+            <a href="#">Single Room</a>
+            <i class="fa fa-home" style="color: #65676b">35 sqm </i>
+            <i class="fa fa-user-o" style="color: #65676b">5 Person</i>
+            <h3>102$</h3>
+            <a href="#" class="local">Discover More</a>
+          </div>
+        </div>
+        <div class="same-common">
+          <div class="same-common-1">
+            <img src="./images/3 (2).webp" alt="" />
+          </div>
+          <div class="same-common-2">
+            <a href="#">Double Room</a>
+            <i class="fa fa-home" style="color: #65676b">35 sqm </i>
+            <i class="fa fa-user-o" style="color: #65676b">5 Person</i>
+            <h3>122$</h3>
+            <a href="#" class="local">Discover More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <!-- Newsletter -->
+      <div class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <form>
+          <input type="email" placeholder="Enter Your Email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="footer-container">
+        <div class="footer-col-1">
+          <img src="./images/logo.svg" alt="" />
+          <p>
+            Each room features plush bedding, high-quality linens, and a
+            selection of ensure a restful night’s sleep.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <a href="#">Room & Suites</a>
+          <a href="#">Dining</a>
+          <a href="#">Spa & Wellness</a>
+          <a href="#">Special Offers</a>
+        </div>
+
+        <div class="footer-col">
+          <h3>Guest Service</h3>
+          <a href="#">24/7 Front Desk</a>
+          <a href="#">Parking</a>
+          <a href="#">Room Service</a>
+          <a href="#">Free Wi-Fi</a>
+          <a href="#">Concierge Service</a>
+        </div>
+
+        <div class="footer-col-2">
+          <h3>Contact Us</h3>
+          <i class="fa fa-phone">+12505550199</i>
+          <i class="fa fa-envelope-o">Moonlit@gmail.com</i>
+          <i class="fa fa-map-marker">M5T 2L9 Toronto, Canada</i>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <p>© 2025 Moonlit. All Rights Reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
