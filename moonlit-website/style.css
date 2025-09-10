@@ -1062,6 +1062,8 @@ h2 {
     color: #000835;
 }
 
+
+
 /* complete the page style and start the next page style */
 .ras-section-2 {
     margin-top: 50px;
@@ -1349,6 +1351,16 @@ h2 {
 }
 
 /* complete the page style and start the next page style */
+
+.det-section-1 {
+    background-image: url(./images/header__bg.webp);
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-color: rgba(17, 38, 87, 0.7);
+    background-blend-mode: color-burn;
+}
 
 .det-section-2 {
     margin-top: 45px;
@@ -3146,6 +3158,88 @@ h2 {
                 .slider-2 {
                     display: none;
                 }
+            }
+        }
+    }
+
+    /* start the next page media style */
+
+    .det-section-1 {
+        height: 30vh;
+        background-position: center;
+    }
+
+    .det-section-2 {
+        .container-1 {
+            display: block;
+
+            .sidbar-content-1 {
+
+                .person-sqm {
+                    padding: 0;
+                    padding-left: 10px;
+
+                    h3 {
+                        display: block;
+                        width: 100%;
+                    }
+
+                    h2 {
+                        display: block;
+                    }
+
+
+
+
+                    .fa.fa-home {
+                        width: fit-content;
+                    }
+
+                    p {
+                        width: 380px;
+                        padding-left: 10px;
+                        margin-top: 12px;
+                    }
+
+                    img {
+                        width: 130%;
+                        margin: auto;
+                    }
+                }
+
+                .rules {
+                    padding: 0;
+                    padding-left: 30px;
+
+                    .img-text {
+                        .parenting {
+                            display: block;
+
+                            span {
+                                display: block;
+                                margin: 10px;
+                            }
+                        }
+                    }
+                }
+
+                .room-features {
+                    padding: 0;
+                    padding-left: 10px;
+
+                    img {
+                        width: 130%;
+                        height: 80vh;
+                    }
+
+                    p {
+                        width: 380px;
+                    }
+                }
+            }
+
+            .sidbar-content-2 {
+                width: 90%;
             }
         }
     }
