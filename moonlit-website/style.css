@@ -2640,6 +2640,22 @@ h2 {
 
 @media (max-width: 420px) {
 
+    /* start header responsivness style */
+
+    header {
+        .navbar-1 {
+            display: none;
+        }
+
+        .navbar-2 {
+            .btn {
+                .btn-1 {
+                    display: none;
+                }
+            }
+        }
+    }
+
     /* start home page madia style */
     .section-1 {
         .text-4 {
@@ -3172,12 +3188,15 @@ h2 {
     .det-section-2 {
         .container-1 {
             display: block;
+            width: 100%;
 
             .sidbar-content-1 {
+                width: 100%;
 
                 .person-sqm {
                     padding: 0;
                     padding-left: 10px;
+                    width: 100%;
 
                     h3 {
                         display: block;
@@ -3186,14 +3205,19 @@ h2 {
 
                     h2 {
                         display: block;
+                        width: max-content;
+                    }
+
+                    i {
+                        display: inline;
+                    }
+
+                    .fa.fa-user,
+                    .fa.fa.fa-home {
+                        width: max-content;
                     }
 
 
-
-
-                    .fa.fa-home {
-                        width: fit-content;
-                    }
 
                     p {
                         width: 380px;
@@ -3202,8 +3226,9 @@ h2 {
                     }
 
                     img {
-                        width: 130%;
+                        width: 90%;
                         margin: auto;
+                        padding-left: 10px;
                     }
                 }
 
@@ -3228,7 +3253,7 @@ h2 {
                     padding-left: 10px;
 
                     img {
-                        width: 130%;
+                        width: 90%;
                         height: 80vh;
                     }
 
@@ -3240,6 +3265,32 @@ h2 {
 
             .sidbar-content-2 {
                 width: 90%;
+            }
+        }
+    }
+
+    .det-section-3 {
+        .flex-3 {
+            display: block;
+            width: 100%;
+
+            .same-common {
+                width: 100%;
+                margin: auto;
+
+                .same-common-1 {
+                    width: 90%;
+                    margin: auto;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .same-common-2 {
+                    margin: 15px;
+                    width: 100%;
+                }
             }
         }
     }
