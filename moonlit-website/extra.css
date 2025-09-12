@@ -1,56 +1,190 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
 }
 
-nav {
-    background-color: black;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 500%;
+header {
+    .navbar-1 {
+        background-color: #ffffff;
+        height: 60px;
+        border-bottom: 2px solid #e5e5e5;
 
-    .menu-1 {
-        display: flex;
-
-        ul {
+        .contact-header {
             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
 
-            li {
-                list-style-type: none;
+            .number-email {
+                padding-left: 15px;
 
-                a {
-                    text-decoration: none;
-                    color: #fff;
-                    margin-left: 10px;
+                .fa.fa-envelope-o,
+                .fa.fa-phone {
+                    color: #65676b;
+                    margin-right: 15px;
+                }
+
+
+
+                span {
+                    padding-left: 10px;
+                    font-family: "Jost";
+                }
+
+                .text-icon {
+                    font-family: "Jost";
+                }
+            }
+
+            .count-data {
+                padding-right: 15px;
+                opacity: 0.5;
+
+                span {
+                    font-family: "Jost";
+                }
+
+                .fa.fa-map-marker::before {
+                    padding-right: 12px;
                 }
             }
         }
     }
 
-    .logo-1 {
-        color: white;
-        font-size: 35px;
-    }
+    .navbar-2 {
+        height: 80px;
 
-    .btns-1 {
-        padding-right: 10px;
+        .logo-menu-btn {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
 
-        button {
-            padding: 10px;
-            background-color: gold;
-            border: none;
+            .menu {
+                padding-left: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #121212;
+                    font-family: "Jost";
+                    margin-right: 12px;
+                    transition: all 0.5s ease;
+
+                    &:hover {
+                        color: #ab8a62;
+                    }
+                }
+            }
+
+            .btn {
+                padding-right: 10px;
+
+                .btn-1 {
+                    padding: 12px 17px;
+                    background: none;
+                    border: 1px solid #e1e3e1;
+                    color: #000;
+                    border-radius: 6px;
+                    transition: all 0.4s ease;
+                    font-family: "Jost";
+
+                    &:hover {
+                        color: #ffffff;
+                        background-color: #ab8a62;
+                    }
+                }
+
+                .btn-2 {
+                    background-color: #ab8a62;
+                    color: #ffffff;
+                    border: none;
+                    border-radius: 6px;
+                    padding: 15px 20px;
+
+                    &:hover {
+                        background-color: #99754a;
+                    }
+                }
+            }
         }
     }
 }
 
 @media (max-width: 420px) {
-    .menu-1 {
-        ul {
-            display: none;
+    .navbar-1 {
+        display: none;
+    }
+
+    .navbar-2 {
+        display: flex;
+        justify-content: space-between;
+
+        .logo-menu-btn {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+
+            .menu {
+                a {
+                    display: none;
+                }
+            }
+
+            .btn {
+                .btn-1 {
+                    display: none;
+                }
+            }
+        }
+
+
+    }
+
+    .sidbar-header {
+        background-color: black;
+        height: 100vh;
+        width: 100%;
+        color: white;
+
+        .logo-paragraph {
+            img {
+                padding: 15px;
+            }
+
+            p {
+                padding: 24px;
+                line-height: 1.5;
+            }
+        }
+
+        .linking {
+            a {
+                text-decoration: none;
+                display: block;
+                margin: 0 20px;
+                color: #ffffff;
+                border-top: 1px solid #65676b;
+                padding: 15px;
+
+                &:hover {
+                    background-color: rgba(101, 103, 107, 0.4);
+                }
+            }
+        }
+
+        .contactning {
+            padding-left: 15px;
+
+            .contactnings {
+                padding: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #ffffff;
+                    padding-top: 10px;
+                    display: block;
+                }
+            }
         }
     }
 }
