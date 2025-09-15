@@ -1303,6 +1303,8 @@ h2 {
                 padding-left: 20px;
                 cursor: grab;
 
+
+
                 .fa.fa-star {
                     font-size: 22px;
                     color: #ab8a62;
@@ -1338,12 +1340,22 @@ h2 {
                 }
             }
 
+            .slider-1:active {
+                cursor: grabbing;
+            }
+
             .slider-2 {
                 width: 30%;
 
                 img {
                     width: 90%;
                     cursor: grab;
+                }
+            }
+
+            .slider-2:active {
+                img {
+                    cursor: grabbing;
                 }
             }
         }
