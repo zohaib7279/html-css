@@ -115,81 +115,91 @@ header {
     }
 }
 
+p {
+    font-size: 20px;
+}
 
-@media (max-width: 420px) {
-    .navbar-1 {
-        display: none;
-    }
+a {
+    color: blue;
+}
 
-    .navbar-2 {
-        display: flex;
-        justify-content: space-between;
+@media only screen and (max-width: 420px) {
+    header {
 
-        .logo-menu-btn {
+        .navbar-1 {
+            display: none;
+        }
+
+        .navbar-2 {
             display: flex;
             justify-content: space-between;
+
+            .logo-menu-btn {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+                .menu {
+                    a {
+                        display: none;
+                    }
+                }
+
+                .btn {
+                    .btn-1 {
+                        display: none;
+                    }
+                }
+            }
+
+
+        }
+
+        .sidbar-header {
+            background-color: black;
+            height: 100vh;
             width: 100%;
+            color: white;
+            display: block;
 
-            .menu {
-                a {
-                    display: none;
+            .logo-paragraph {
+                img {
+                    padding: 15px;
+                }
+
+                p {
+                    padding: 24px;
+                    line-height: 1.5;
                 }
             }
 
-            .btn {
-                .btn-1 {
-                    display: none;
-                }
-            }
-        }
-
-
-    }
-
-    .sidbar-header {
-        background-color: black;
-        height: 100vh;
-        width: 100%;
-        color: white;
-        display: block;
-
-        .logo-paragraph {
-            img {
-                padding: 15px;
-            }
-
-            p {
-                padding: 24px;
-                line-height: 1.5;
-            }
-        }
-
-        .linking {
-            a {
-                text-decoration: none;
-                display: block;
-                margin: 0 20px;
-                color: #ffffff;
-                border-top: 1px solid #65676b;
-                padding: 15px;
-
-                &:hover {
-                    background-color: rgba(101, 103, 107, 0.4);
-                }
-            }
-        }
-
-        .contactning {
-            padding-left: 15px;
-
-            .contactnings {
-                padding: 10px;
-
+            .linking {
                 a {
                     text-decoration: none;
-                    color: #ffffff;
-                    padding-top: 10px;
                     display: block;
+                    margin: 0 20px;
+                    color: #ffffff;
+                    border-top: 1px solid #65676b;
+                    padding: 15px;
+
+                    &:hover {
+                        background-color: rgba(101, 103, 107, 0.4);
+                    }
+                }
+            }
+
+            .contactning {
+                padding-left: 15px;
+
+                .contactnings {
+                    padding: 10px;
+
+                    a {
+                        text-decoration: none;
+                        color: #ffffff;
+                        padding-top: 10px;
+                        display: block;
+                    }
                 }
             }
         }
