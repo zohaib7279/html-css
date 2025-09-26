@@ -76,6 +76,10 @@ header {
                         color: #ab8a62;
                     }
                 }
+
+                .room-drop:hover .dropdown-list {
+                    display: none;
+                }
             }
 
             .btn {

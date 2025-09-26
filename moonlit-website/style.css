@@ -734,10 +734,14 @@ header {
             .photos {
                 padding-left: 40px;
 
+                h2 {
+                    font-size: 60px;
+                    margin-top: 40px;
+                }
+
                 img {
                     border-radius: 50%;
-                    width: 300px;
-                    padding-left: 15px;
+                    width: 50px;
                 }
             }
 
@@ -1631,10 +1635,12 @@ h2 {
     .flex-3 {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
 
         .same-common {
             width: 405px;
-            border: 1px solid #F1F1F1;
+            border: 1px solid #f1f1f1;
+            margin-bottom: 20px;
 
             .same-common-1 {
                 width: 405px;
@@ -1883,6 +1889,193 @@ h2 {
                 font-size: 18px;
                 color: #ab8a62;
             }
+        }
+    }
+}
+
+/* complete the page style and start the next page style */
+.room1-section-2 {
+    background-color: #fff;
+    width: 80%;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px 30px;
+    box-shadow: 10px 10px #f3f3f3;
+    border: 1px solid #d0d1d2;
+    margin-bottom: 55px;
+
+    .shadow {
+        display: flex;
+        align-items: center;
+
+        .check-in {
+            margin-right: 15px;
+            border-right: 1px solid #dedede;
+
+            h4 {
+                padding-left: 5px;
+                font-size: 20px;
+                font-family: "Gilda Display";
+                font-weight: 400;
+                color: #000834;
+            }
+
+            .fa.fa-calendar {
+                padding-left: 5px;
+                padding-right: 10px;
+                display: flex;
+                padding-top: 10px;
+                align-items: center;
+
+                input {
+                    padding-left: 8px;
+                }
+            }
+        }
+
+        .check-out {
+            border-right: 1px solid #dedede;
+
+            h4 {
+                padding-left: 5px;
+                font-size: 20px;
+                font-family: "Gilda Display";
+                font-weight: 400;
+                color: #000834;
+            }
+
+            .fa.fa-calendar {
+                padding-left: 5px;
+                padding-right: 10px;
+                display: inline;
+                display: flex;
+                padding-top: 10px;
+                align-items: center;
+
+                input {
+                    padding-left: 8px;
+                }
+            }
+        }
+
+        .adult {
+            margin-left: 20px;
+            border-right: 1px solid #dedede;
+            padding-right: 10px;
+
+            h4 {
+                padding-left: 8px;
+                font-size: 20px;
+                font-family: "Gilda Display";
+                font-weight: 400;
+                color: #000834;
+            }
+
+            #person {
+                width: 200px;
+                font-family: "Jost";
+                border: none;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+        }
+
+        .Child {
+            border-right: 1px solid #dedede;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            h4 {
+                padding-left: 8px;
+                font-size: 20px;
+                font-family: "Gilda Display";
+                font-weight: 400;
+                color: #000834;
+            }
+
+            #child {
+                width: 200px;
+                font-family: "Jost";
+                border: none;
+            }
+        }
+
+        .btn1 {
+            padding-left: 10px;
+
+            button {
+                padding: 18px 35px;
+                background-color: #ab8a62;
+                color: #fff;
+                border-radius: 5px;
+                border: none;
+                cursor: pointer;
+                font-weight: 500;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+/* complete the page style and start the next page style */
+.room2-section-2 {
+    .container-2 {
+        display: flex;
+        width: 100%;
+
+        .sidbar-content-2 {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 20px;
+            width: 30%;
+            height: fit-content;
+
+            .booking-box {
+                flex: 1;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 10px;
+                background: #f9f9f9;
+            }
+
+            .booking-box label {
+                display: flex;
+                justify-content: space-between;
+                margin: 10px 0;
+            }
+
+            .booking-box input {
+                width: 50%;
+                padding: 10px;
+                margin-top: 5px;
+            }
+
+            .booking-box #woding {
+                width: 50%;
+                padding: 10px;
+                margin-top: 5px;
+            }
+
+            .total {
+                margin: 15px 0;
+                font-weight: bold;
+            }
+
+            .booking-box .btn {
+                width: 100%;
+                background: #b08968;
+                color: #fff;
+                padding: 20px 10px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 20px;
+            }
+        }
+
+        .det-section-3 {
+            width: 70%;
         }
     }
 }
