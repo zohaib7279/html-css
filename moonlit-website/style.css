@@ -87,15 +87,14 @@ header {
             height: 80px;
 
             .menu {
-                padding-left: 10px;
+                padding-left: 20px;
 
                 a {
                     text-decoration: none;
-                    color: #121212;
+                    color: #65676b;
                     font-family: "Jost";
-                    margin-right: 12px;
+                    margin-right: 21px;
                     transition: all 0.5s ease;
-                    font-family: "Noto Sans Arabic";
 
                     &:hover {
                         color: #ab8a62;
@@ -2080,6 +2079,126 @@ h2 {
     }
 }
 
+/* complete the page style and start the next page style */
+.blog-section-1 {
+    background-image: url(./images/header__bg.webp);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    flex-direction: column;
+    color: #fff;
+
+    h1 {
+        font-size: 70px;
+        font-weight: 400;
+        font-family: "gilda display";
+        position: absolute;
+        z-index: 9999999999;
+    }
+
+    p {
+        margin-top: 120px;
+        position: absolute;
+        z-index: 9999999999;
+        font-family: "jost";
+        font-size: 18px;
+    }
+
+    &::after {
+        background-color: rgb(0 8 52);
+        opacity: 0.6;
+        content: "";
+        z-index: 99999;
+        width: 100%;
+        height: 150vh;
+    }
+}
+
+.blog-section-2 {
+    margin-top: 20px;
+
+    .container-3 {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        .sidbar-blog-1 {
+            width: 800px;
+            margin-right: 100px;
+
+            .sidbaring {
+                border: 1px solid #65676B;
+                padding: 25px;
+                width: 100%;
+
+                .sidbaring-1 {
+                    width: 100%;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .sidbaring-2 {
+                    a {
+                        display: block;
+                        text-decoration: none;
+                        font-family: "Gilda Display";
+                        margin: 10px;
+                    }
+
+                    .hotel-1 {
+                        color: #65676b;
+                    }
+
+                    .hotel-2 {
+                        font-size: 35px;
+                        color: #000834;
+                        transition: all 1s ease-in-out;
+
+                        &:hover {
+                            color: #ab8a62;
+                        }
+                    }
+
+                    p {
+                        color: #65676B;
+                    }
+
+                    img {
+                        width: 50px;
+                        border-radius: 50%;
+                        margin-top: 40px;
+                    }
+
+                    button {
+                        margin-left: 640px;
+                        padding: 10px 15px;
+                        background: #65676B;
+                        border: none;
+                        color: #000834;
+                        font-weight: 500;
+                        transition: all 0.3s ease-in;
+                        margin-bottom: 20px;
+
+                        &:hover {
+                            color: #65676B;
+                            background: #000834;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sidbar-blog-2 {
+            width: 420px;
+        }
+    }
+}
+
 /* start media query in this pages  */
 
 @media (max-width: 991px) {
@@ -3921,6 +4040,21 @@ h2 {
                     margin: 10px;
                 }
             }
+        }
+    }
+
+    /* start the next page media style */
+
+    .blog-section-1 {
+        height: 60vh;
+        text-align: center;
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-weight: 400;
         }
     }
 }

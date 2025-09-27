@@ -1,7 +1,7 @@
 * {
-    padding: 0;
     margin: 0;
-    font-family: "Noto Sans Arabic";
+    padding: 0;
+    font-family: monospace;
 }
 
 header {
@@ -77,9 +77,7 @@ header {
                     }
                 }
 
-                .room-drop:hover .dropdown-list {
-                    display: none;
-                }
+
             }
 
             .btn {
@@ -118,14 +116,8 @@ header {
     .sidbar-header {
         display: none;
     }
-}
 
-#checked {
-    display: none;
+    input {
+        display: none;
+    }
 }
-
-#label {
-    display: none;
-}
-
-@media only screen and (max-width: 420px) {}
