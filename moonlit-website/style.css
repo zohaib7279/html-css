@@ -2127,12 +2127,13 @@ h2 {
 
         .sidbar-blog-1 {
             width: 800px;
-            margin-right: 100px;
+            margin-right: 70px;
 
             .sidbaring {
-                border: 1px solid #65676B;
+                border: 1px solid #e5e5e5;
                 padding: 25px;
                 width: 100%;
+                border-radius: 10px;
 
                 .sidbaring-1 {
                     width: 100%;
@@ -2168,25 +2169,44 @@ h2 {
                         color: #65676B;
                     }
 
-                    img {
-                        width: 50px;
-                        border-radius: 50%;
-                        margin-top: 40px;
-                    }
+                    .flex-button {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
 
-                    button {
-                        margin-left: 640px;
-                        padding: 10px 15px;
-                        background: #65676B;
-                        border: none;
-                        color: #000834;
-                        font-weight: 500;
-                        transition: all 0.3s ease-in;
-                        margin-bottom: 20px;
+                        .flex-button-1 {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
 
-                        &:hover {
-                            color: #65676B;
-                            background: #000834;
+                            img {
+                                width: 50px;
+                                border-radius: 50%;
+                            }
+
+                            span {
+                                color: #000834;
+                                padding-bottom: 30px;
+                            }
+                        }
+
+                        .flex-button-2 {
+                            button {
+                                padding: 10px 15px;
+                                background-color: #f2f2f2;
+                                color: #000834;
+                                border: none;
+                                font-family: "Jost";
+                                font-weight: 400;
+                                font-size: 16px;
+                                cursor: pointer;
+                                transition: all 0.3s ease-in-out;
+
+                                &:hover {
+                                    background-color: #000834;
+                                    color: #f2f2f2;
+                                }
+                            }
                         }
                     }
                 }
@@ -2195,6 +2215,90 @@ h2 {
 
         .sidbar-blog-2 {
             width: 420px;
+            background-color: #F1F1F1;
+            padding: 20px;
+            height: fit-content;
+
+            .search {
+                h4 {
+                    font-size: 25px;
+                    color: #000834;
+                    font-family: "Gilda Display";
+                    padding-bottom: 8px;
+                }
+
+                #search {
+                    padding: 13px 13px 13px 10px;
+                    width: 100%;
+                }
+            }
+
+            .checkbox-5 {
+                h3 {
+                    font-size: 30px;
+                    font-family: "Gilda Display";
+                    padding-bottom: 10px;
+                    color: #000834;
+                }
+
+                .flex-checkbox {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-bottom: 30px;
+                }
+            }
+
+            .posting {
+                .postinging {
+                    display: flex;
+                    align-items: center;
+
+                    .postinger-1 {
+                        width: 110px;
+
+                        img {
+                            width: 110px;
+                            height: 100px;
+                            border-radius: 7px;
+                        }
+                    }
+
+                    .postinger-2 {
+                        padding-left: 20px;
+
+                        a {
+                            font-size: 18px;
+                            font-family: "Jost";
+                            font-weight: 400;
+                            color: #000834;
+                            display: block;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .tags {
+                h3 {
+                    font-family: "Gilda display";
+                    font-size: 20px;
+                }
+
+                button {
+                    padding: 8px 10px;
+                    color: #65676B;
+                    background: none;
+                    border: none;
+                    border: 1px solid #65676B;
+                    margin: 15px;
+                    transition: all 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #C4A68B;
+                        color: #fff;
+                    }
+                }
+            }
         }
     }
 }
@@ -2697,6 +2801,28 @@ h2 {
         }
     }
 
+    /* start the next page media style */
+
+    .blog-section-1 {
+        height: 40vh;
+    }
+
+    .blog-section-2 {
+        .container-3 {
+            width: 100%;
+            display: block;
+
+            .sidbar-blog-1 {
+                width: 80%;
+                margin-left: 75px;
+            }
+
+            .sidbar-blog-2 {
+                width: 80%;
+                margin: auto;
+            }
+        }
+    }
 }
 
 @media (max-width: 778px) {
@@ -3220,6 +3346,29 @@ h2 {
                 .slider-2 {
                     display: none;
                 }
+            }
+        }
+    }
+
+    /* start the next page media style */
+
+    .blog-section-1 {
+        height: 40vh;
+    }
+
+    .blog-section-2 {
+        .container-3 {
+            width: 100%;
+            display: block;
+
+            .sidbar-blog-1 {
+                width: 90%;
+                margin-left: 20px;
+            }
+
+            .sidbar-blog-2 {
+                width: 90%;
+                margin: auto;
             }
         }
     }
@@ -4055,6 +4204,28 @@ h2 {
 
         p {
             font-weight: 400;
+        }
+    }
+
+    .blog-section-2 {
+        .container-3 {
+            display: block;
+            width: 100%;
+
+            .sidbar-blog-1 {
+                width: 100%;
+
+                .sidbaring {
+                    width: 80%;
+                    margin: auto;
+                }
+            }
+
+            .sidbar-blog-2 {
+                width: 85%;
+                margin: auto;
+                padding: 20px;
+            }
         }
     }
 }
